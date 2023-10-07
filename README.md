@@ -31,16 +31,19 @@
    ## Screen-shots
 
 
-![s1](https://github.com/sajibmalek/aqua-explorer/assets/44054338/086ba1e3-deb5-4941-a0db-0b12a6dd908b) ![s2](https://github.com/sajibmalek/aqua-explorer/assets/44054338/84d693a8-bd50-42e6-9d8c-172d0d1a2177) ![s3](https://github.com/sajibmalek/aqua-explorer/assets/44054338/0c0b8d25-25b9-4877-be76-2f846b6b6fdb)
+![s1](https://github.com/sajibmalek/aqua-explorer/assets/44054338/086ba1e3-deb5-4941-a0db-0b12a6dd908b)
+![s2](https://github.com/sajibmalek/aqua-explorer/assets/44054338/84d693a8-bd50-42e6-9d8c-172d0d1a2177) 
+![s3](https://github.com/sajibmalek/aqua-explorer/assets/44054338/0c0b8d25-25b9-4877-be76-2f846b6b6fdb)
+![s4](https://github.com/sajibmalek/aqua-explorer/assets/44054338/9876146c-a0f8-42d2-868c-e70e224ca256)
+![s5](https://github.com/sajibmalek/aqua-explorer/assets/44054338/676f481c-2235-4edd-996f-a59477efdca0) 
+![s6](https://github.com/sajibmalek/aqua-explorer/assets/44054338/b647b4bf-47e6-43b7-98fd-21c5e1b0a053)
 
-![s4](https://github.com/sajibmalek/aqua-explorer/assets/44054338/9876146c-a0f8-42d2-868c-e70e224ca256) ![s5](https://github.com/sajibmalek/aqua-explorer/assets/44054338/676f481c-2235-4edd-996f-a59477efdca0) ![s6](https://github.com/sajibmalek/aqua-explorer/assets/44054338/b647b4bf-47e6-43b7-98fd-21c5e1b0a053)
-
-![s7](https://github.com/sajibmalek/aqua-explorer/assets/44054338/ea0742de-99f8-4008-a7cb-a6e651aab271) ![s8](https://github.com/sajibmalek/aqua-explorer/assets/44054338/09400c41-22d2-4c1d-99f7-9e4711b20089) ![s9](https://github.com/sajibmalek/aqua-explorer/assets/44054338/709e00ad-5a6d-4528-8060-0b36afa2acd9)
-
-
-
-
-![s10](https://github.com/sajibmalek/aqua-explorer/assets/44054338/df101a4a-1020-4d9a-beb2-a703605f4e60) ![s12](https://github.com/sajibmalek/aqua-explorer/assets/44054338/6541e0b0-7aa3-4988-9868-5d2400a349c4) ![s11](https://github.com/sajibmalek/aqua-explorer/assets/44054338/b66b8ec2-2f3b-466d-80c8-61eee839133f)
+![s7](https://github.com/sajibmalek/aqua-explorer/assets/44054338/ea0742de-99f8-4008-a7cb-a6e651aab271)
+![s8](https://github.com/sajibmalek/aqua-explorer/assets/44054338/09400c41-22d2-4c1d-99f7-9e4711b20089)
+![s9](https://github.com/sajibmalek/aqua-explorer/assets/44054338/709e00ad-5a6d-4528-8060-0b36afa2acd9)
+![s10](https://github.com/sajibmalek/aqua-explorer/assets/44054338/df101a4a-1020-4d9a-beb2-a703605f4e60)
+![s12](https://github.com/sajibmalek/aqua-explorer/assets/44054338/6541e0b0-7aa3-4988-9868-5d2400a349c4)
+![s11](https://github.com/sajibmalek/aqua-explorer/assets/44054338/b66b8ec2-2f3b-466d-80c8-61eee839133f)
 
 
 
