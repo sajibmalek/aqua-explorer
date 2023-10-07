@@ -16,6 +16,7 @@ class _BackGroundHistoryState extends State<BackGroundHistory> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: Text("Background History"),
         leading: const BackButton(),
       ),
       body: SafeArea(

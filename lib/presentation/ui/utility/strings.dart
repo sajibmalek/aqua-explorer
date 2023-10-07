@@ -6,4 +6,8 @@ class AppString{
 
   static const String bg_info3="Water is at the heart of both the causes and effects of climate change - (NRC, 1999)";
   static const String bg_info4="But there's hope. You can be the hero who learns about these problems and makes a positive impact. Your journey begins here, as you set out to become a water-saving hero, understand the water cycle, fight climate change, and protect our planet's most vital resource. Are you ready to take the first step?";
+
+  static const String  level1='Ocean Origins - The Deep Dive';
+  static const String  level2='Atmospheric Adventure - Cloud Chasers';
+  static const String  level3='Earth\'sSurface Impact - Bangladesh Unveiled';
 }

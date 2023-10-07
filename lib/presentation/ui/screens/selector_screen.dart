@@ -1,5 +1,5 @@
 import 'package:aqua_explorer/presentation/ui/screens/journey.dart';
-import 'package:aqua_explorer/presentation/ui/screens/nasa_mission_screen.dart';
+import 'package:aqua_explorer/presentation/ui/screens/game_level/nasa_mission_screen.dart';
 import 'package:aqua_explorer/presentation/ui/utility/AppImage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -25,33 +25,27 @@ class _SelectorScreenState extends State<SelectorScreen> {
           children: [
             const SizedBox(height: 40,),
             Center(child: const Text("Select your Character Name")),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(left: 10,top: 10,right: 10,bottom: 5),
-                  child: TextFormField(
-                    decoration: const InputDecoration(
-                        label: Text("Your name"),
-                        border: OutlineInputBorder(
-                        )
+            Padding(
+              padding: const EdgeInsets.only(left: 10,top: 10,right: 10,bottom: 5),
+              child: TextFormField(
+                decoration: const InputDecoration(
+                    label: Text("Your name"),
+                    border: OutlineInputBorder(
+                    )
 
-                    ),
-
-                  ),
                 ),
-                TextButton(onPressed: () {
 
-                },style: TextButton.styleFrom(
-                  backgroundColor: Colors.amber,
-
-                ), child: const Text("Confirm",style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 18
-                ),),)
-              ],
+              ),
             ),
+            // TextButton(onPressed: () {
+            //
+            // },style: TextButton.styleFrom(
+            //   backgroundColor: Colors.amber,
+            //
+            // ), child: const Text("Confirm",style: TextStyle(
+            //     color: Colors.white,
+            //     fontSize: 18
+            // ),),),
 
 
             Row(
@@ -154,7 +148,7 @@ class _SelectorScreenState extends State<SelectorScreen> {
                 width: 80,
                 height: 30,
                 child: TextButton(onPressed: () {
-                  Get.to(const JournyScreen());
+                  Get.to(const JourneyScreen());
                 },style: TextButton.styleFrom(
                   backgroundColor: Colors.amber,
 

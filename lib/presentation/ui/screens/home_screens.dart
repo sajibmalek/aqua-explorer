@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import 'package:aqua_explorer/presentation/ui/screens/background_history.dart';
+import 'package:aqua_explorer/presentation/ui/utility/AppImage.dart';
 import 'package:aqua_explorer/presentation/ui/utility/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -34,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height:MediaQuery.of(context).size.height,
               child:
               Image.asset(
-                "assets/images/start_bg.jpg",
+               AppImages.bg_img,
                 width: MediaQuery.of(context).size.width,
                 height:MediaQuery.of(context).size.height,
               ),

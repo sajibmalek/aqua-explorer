@@ -1,4 +1,8 @@
-import 'package:aqua_explorer/presentation/ui/screens/nasa_mission_screen.dart';
+import 'package:aqua_explorer/presentation/ui/screens/game_level/game_map.dart';
+import 'package:aqua_explorer/presentation/ui/screens/game_level/level1.dart';
+import 'package:aqua_explorer/presentation/ui/screens/game_level/level_list.dart';
+import 'package:aqua_explorer/presentation/ui/screens/game_level/nasa_mission_screen.dart';
+import 'package:aqua_explorer/presentation/ui/screens/journey.dart';
 import 'package:aqua_explorer/presentation/ui/screens/selector_screen.dart';
 import 'package:aqua_explorer/presentation/ui/utility/AppImage.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -25,6 +29,10 @@ class _GlobalWaterCycleState extends State<GlobalWaterCycle> {
   @override
   Widget build(BuildContext context) {
     return   Scaffold(
+      appBar: AppBar(
+        title: Text("Wather cycle "),
+        leading: const BackButton(),
+      ),
       body: Column(
         children: [
           const SizedBox(height: 20,),
@@ -83,9 +91,17 @@ class _GlobalWaterCycleState extends State<GlobalWaterCycle> {
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Image.asset(AppImages.game_map,width: 150,height: 150,),
+                  InkWell(
+                      onTap: (){
+                        Get.to(const GameMap());
+                      },
+                      child: Image.asset(AppImages.game_map,width: 150,height: 150,)),
                   const SizedBox(width: 20,),
-                  Image.asset(AppImages.nasa_mission,width: 150,height: 150,),
+                  InkWell(
+                      onTap: (){
+                        Get.to(const NasaMissionScreen());
+                      },
+                      child: Image.asset(AppImages.nasa_mission,width: 150,height: 150,)),
                 ],
               ),
             ),
@@ -96,7 +112,7 @@ class _GlobalWaterCycleState extends State<GlobalWaterCycle> {
               width: 120,
               height: 45,
               child: TextButton(onPressed: () {
-                Get.to(const NasaMissionScreen());
+                Get.to(const LevelListScreen());
               },style: TextButton.styleFrom(
                 backgroundColor: Colors.amber,
 

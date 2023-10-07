@@ -38,6 +38,8 @@ dependencies:
   lottie: ^2.6.0
   get: ^4.6.6
   carousel_slider: ^4.2.1
+  webview_flutter: ^4.4.1
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:
