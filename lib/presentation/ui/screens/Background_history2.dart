@@ -1,17 +1,17 @@
-import 'package:aqua_explorer/presentation/ui/screens/Background_history2.dart';
+import 'package:aqua_explorer/presentation/ui/screens/global_water_cycle.dart';
 import 'package:aqua_explorer/presentation/ui/screens/selector_screen.dart';
 import 'package:aqua_explorer/presentation/ui/utility/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class BackGroundHistory extends StatefulWidget {
-  const BackGroundHistory({super.key});
+class BackGroundHistory2 extends StatefulWidget {
+  const BackGroundHistory2({super.key});
 
   @override
-  State<BackGroundHistory> createState() => _BackGroundHistoryState();
+  State<BackGroundHistory2> createState() => _BackGroundHistory2State();
 }
 
-class _BackGroundHistoryState extends State<BackGroundHistory> {
+class _BackGroundHistory2State extends State<BackGroundHistory2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +23,7 @@ class _BackGroundHistoryState extends State<BackGroundHistory> {
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-             // crossAxisAlignment: CrossAxisAlignment.center,
+              // crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 20),
@@ -35,39 +35,9 @@ class _BackGroundHistoryState extends State<BackGroundHistory> {
                       border: Border.all(color: Colors.black)),
                   child: Center(
                       child: Text(
-                    "Background History",
-                    style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),
-                  )),
-                ),
-
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width,
-                   // height:  MediaQuery.of(context).size.height,
-                    child: Text(
-                      AppString.bg_info1,
-                      style: TextStyle(
-                          letterSpacing: 0.1,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w300),
-                    ),
-                  ),
-                ),
-               // const SizedBox(height: 20,),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width,
-                   // height:  MediaQuery.of(context).size.height,
-                    child: Text(
-                      AppString.bg_info2,
-                      style: TextStyle(
-                          letterSpacing: 0.1,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w300),
-                    ),
-                  ),
+                        "Background History",
+                        style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),
+                      )),
                 ),
 
                 Padding(
@@ -76,7 +46,7 @@ class _BackGroundHistoryState extends State<BackGroundHistory> {
                     width: MediaQuery.of(context).size.width,
                     // height:  MediaQuery.of(context).size.height,
                     child: Text(
-                      AppString.bg_info2,
+                      AppString.bg_info4,
                       style: TextStyle(
                           letterSpacing: 0.1,
                           fontSize: 18,
@@ -108,7 +78,7 @@ class _BackGroundHistoryState extends State<BackGroundHistory> {
                         width: 120,
                         height: 45,
                         child: TextButton(onPressed: () {
-                          Get.to(const BackGroundHistory2());
+                          Get.to(const SelectorScreen());
                         },style: TextButton.styleFrom(
                           backgroundColor: Colors.amber,
 
@@ -117,6 +87,7 @@ class _BackGroundHistoryState extends State<BackGroundHistory> {
                             fontSize: 30
                         ),),),
                       ),
+
                     ],
                   ),
                 )
